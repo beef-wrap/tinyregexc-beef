@@ -5,8 +5,7 @@ Name = "tinyregexc-beef"
 DefaultNamespace = "tinyregexc"
 
 [Configs.Debug.Win64]
-CLibType = "DynamicDebug"
-LibPaths = ["$(ProjectDir)\\libs\\debug\\tinyregexc.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\tinyregexc_d.lib"]
 
 [Configs.Release.Win64]
-LibPaths = ["$(ProjectDir)\\libs\\release\\tinyregexc.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\tinyregexc.lib"]
