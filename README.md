@@ -1,6 +1,6 @@
 # About
 
-A Beef wrapper for [mylib](https://github.com/upstream_owner/upstream_reo), a upstream_description.
+A Beef wrapper for [tiny-regex-c](https://github.com/kokke/tiny-regex-c).
 
 # Building static libs
 
@@ -14,4 +14,4 @@ Clone the repo, and open up the workspace in the Beef IDE, and run.
 
 # View the upstream commit against latest
 
-https://github.com/upstream_owner/upstream_reo/compare/upstream_sha..master
+https://github.com/kokke/tiny-regex-c/compare/f2632c6d9ed25272987471cdb8b70395c2460bdb..master
