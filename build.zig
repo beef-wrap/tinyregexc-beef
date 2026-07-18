@@ -85,8 +85,8 @@ pub fn build(b: *std.Build) !void {
                 target,
                 t,
                 o,
-                "mylib",
-                "mylib_d",
+                "tinyregexc",
+                "tinyregexc_d",
                 &.{},
                 &.{upstream.path("")},
                 &.{
