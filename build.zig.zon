@@ -1,0 +1,17 @@
+.{
+    .name = .tinyregexc_beef,
+    .version = "0.0.0",
+    .fingerprint = 0x8dcb11102e828d9b,
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .upstream = .{
+            .url = "git+https://github.com/kokke/tiny-regex-c.git#f2632c6d9ed25272987471cdb8b70395c2460bdb",
+            .hash = "N-V-__8AADcUBACFmX_AMoVHXxWz85TxH9jNW9OXPSyBgD8Y",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
