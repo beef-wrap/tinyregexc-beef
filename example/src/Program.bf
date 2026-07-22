@@ -19,8 +19,6 @@ static class Program
 		/* Test 2: set with an incomplete escape sequence and without a closing ']' */
 		Debug.Assert(re_compile("\\\x01[^\\\xff][\\") == null);
 
-		Test1.test();
-
 		return 0;
 	}
 }

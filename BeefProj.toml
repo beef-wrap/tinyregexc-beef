@@ -5,7 +5,46 @@ Name = "tinyregexc-beef"
 DefaultNamespace = "tinyregexc"
 
 [Configs.Debug.Win64]
-LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\tinyregexc_d.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\x86_64-windows-msvc\\tinyregexc_d.lib"]
+
+[Configs.Debug.aarch64-windows-gnu]
+LibPaths = ["$(ProjectDir)\\libs\\x86_64-windows-gnu\\tinyregexc_d.lib"]
+
+[Configs.Debug.Linux64]
+LibPaths = ["$(ProjectDir)\\libs\\x86_64-linux-musl\\libtinyregexc_d.a"]
+
+[Configs.Debug.aarch64-linux-gnu]
+LibPaths = ["$(ProjectDir)\\libs\\aarch64-linux-gnu\\libtinyregexc_d.a"]
+
+[Configs.Debug.macOS]
+LibPaths = ["$(ProjectDir)\\libs\\aarch64-macos\\libtinyregexc_d.a"]
 
 [Configs.Release.Win64]
-LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\tinyregexc.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\x86_64-windows-msvc\\tinyregexc.lib"]
+
+[Configs.Release.aarch64-windows-gnu]
+LibPaths = ["$(ProjectDir)\\libs\\x86_64-windows-gnu\\tinyregexc.lib"]
+
+[Configs.Release.Linux64]
+LibPaths = ["$(ProjectDir)\\libs\\x86_64-linux-musl\\libtinyregexc.a"]
+
+[Configs.Release.aarch64-linux-gnu]
+LibPaths = ["$(ProjectDir)\\libs\\aarch64-linux-gnu\\libtinyregexc.a"]
+
+[Configs.Release.macOS]
+LibPaths = ["$(ProjectDir)\\libs\\aarch64-macos\\libtinyregexc.a"]
+
+[Configs.Test.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\x86_64-windows-msvc\\tinyregexc_d.lib"]
+
+[Configs.Test.aarch64-windows-gnu]
+LibPaths = ["$(ProjectDir)\\libs\\x86_64-windows-gnu\\tinyregexc_d.lib"]
+
+[Configs.Test.Linux64]
+LibPaths = ["$(ProjectDir)\\libs\\x86_64-linux-musl\\libtinyregexc_d.a"]
+
+[Configs.Test.aarch64-linux-gnu]
+LibPaths = ["$(ProjectDir)\\libs\\aarch64-linux-gnu\\libtinyregexc_d.a"]
+
+[Configs.Test.macOS]
+LibPaths = ["$(ProjectDir)\\libs\\aarch64-macos\\libtinyregexc_d.a"]

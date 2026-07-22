@@ -1,6 +1,6 @@
 # About
 
-A Beef wrapper for [tiny-regex-c](https://github.com/kokke/tiny-regex-c).
+A Beef wrapper for [tiny-regex-c](https://github.com/kokke/tiny-regex-c). Small and portable [Regular Expression](https://en.wikipedia.org/wiki/Regular_expression) (regex) library written in C. 
 
 # Building static libs
 
